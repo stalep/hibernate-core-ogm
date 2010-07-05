@@ -36,6 +36,7 @@
         <module>envers</module>
         <module>jdbc3-testing</module>
         <module>cache-infinispan</module>
+        <module>ogm</module>
 <!--
         <module>tutorials</module>
 -->
