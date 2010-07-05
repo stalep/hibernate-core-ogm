@@ -1284,6 +1284,10 @@ public final class SessionFactoryImpl implements SessionFactory, SessionFactoryI
 		return ( FetchProfile ) fetchProfiles.get( name );
 	}
 
+	public SessionFactoryObserver getFactoryObserver() {
+		return observer;
+	}
+
 	public TypeHelper getTypeHelper() {
 		return typeHelper;
 	}
